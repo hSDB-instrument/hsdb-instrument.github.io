@@ -1,37 +1,3 @@
-## Welcome to GitHub Pages
+## Welcome to hSDB-instrument
 
-You can use the [editor on GitHub](https://github.com/hSDB-instrument/hsdb-instrument.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hSDB-instrument/hsdb-instrument.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Automated surgical tool recognition is a very important fac-tor that can provide feedback on a surgeon’s performance and analyzethem  such  that  it  determines  the  summary  or  training  of  the  surgicalprocedure. Therefore, we introduce a new dataset that reflects the kine-matic characteristics of surgical instruments for automated surgical toolrecognition  of  surgical  videos.  The  hSDB  (human  Surgery  DataBase)-instrument dataset consists of instrument information of cholecystectomyvideos obtained from 24 cases of laparoscopic surgery and gastrectomyvideos obtained from 24 cases of robotic surgery for gastric cancer. Lo-calization information for all tools is provided in the form of a boundingbox for training using the object detection framework. At the same time,to handle class imbalance problem between tools, synthetic tools mod-eled in Unity for three-dimensional (3D) models are included as trainingdata. In addition, for 3D instrument data, a polygon map is provided toenable instance segmentation of the tool. To reflect the kinematic char-acteristics of all tools, they are annotated with head and body parts forlaparoscopic surgery, and with head, wrist, and body parts for roboticsurgery. In addition, annotation data on assistive tools (specimen bag,needle, etc.) that are frequently used for surgery are included. We pro-vide  statistical  information  on  the  hSDB-instrument  dataset  and  thebaseline performance of the object detection networks trained throughthe MMDetection library and the resulting analyses1
