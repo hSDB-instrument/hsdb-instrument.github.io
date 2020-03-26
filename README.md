@@ -8,7 +8,7 @@ Automated surgical tool recognition is a very important fac-tor that can provide
 
 
 
-### Index
+## Index
 
 
 
