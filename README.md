@@ -16,14 +16,14 @@ hSDB-instrument dataset is a new dataset that reflects the kinematic characteris
 
 ### Example Images
 
-| Surgery Type | Data Type            | Image                                                        |
-| :----------- | :------------------- | :----------------------------------------------------------- |
-| Cholec       | Real                 | ![cholec_real](/Users/apple/source_codes/hsdb-instrument.github.io/figures/cholec_real.png) |
-| Cholec       | Synthetic            | ![cholec_syn](/Users/apple/source_codes/hsdb-instrument.github.io/figures/cholec_syn.png) |
-| Cholec       | Domain randomization | ![cholec_dr](/Users/apple/source_codes/hsdb-instrument.github.io/figures/cholec_dr.png) |
-| Gastrec      | Real                 | ![gastrec_real](/Users/apple/source_codes/hsdb-instrument.github.io/figures/gastrec_real.png) |
-| Gastrec      | Synthetic            | ![gastrec_syn](/Users/apple/source_codes/hsdb-instrument.github.io/figures/gastrec_syn.png) |
-| Gastrec      | Domain randomization | ![gastrec_dr](/Users/apple/source_codes/hsdb-instrument.github.io/figures/gastrec_dr.png) |
+| Surgery Type | Data Type            | Image                                     |
+| :----------- | :------------------- | :---------------------------------------- |
+| Cholec       | Real                 | ![cholec_real](figures/cholec_real.png)   |
+| Cholec       | Synthetic            | ![cholec_syn](figures/cholec_syn.png)     |
+| Cholec       | Domain randomization | ![cholec_dr](figures/cholec_dr.png)       |
+| Gastrec      | Real                 | ![gastrec_real](figures/gastrec_real.png) |
+| Gastrec      | Synthetic            | ![gastrec_syn](figures/gastrec_syn.png)   |
+| Gastrec      | Domain randomization | ![gastrec_dr](figures/gastrec_dr.png)     |
 
 
 
@@ -50,22 +50,22 @@ More models with different backbones will be added to the model zoo.
 
 | Surgery type | Model         | Bacbone      | Sub-module        | Dataset                                           | Epoch | mAP  | Download |
 | :----------- | :------------ | :----------- | :---------------- | :------------------------------------------------ | :---- | :--- | -------- |
-| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real                                              |       |      |          |
-| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic                             |       |      |          |
-| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Domain randomization                  |       |      |          |
-| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic<br />+ Domain randomization |       |      |          |
-| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real                                              |       |      |          |
-| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic                             |       |      |          |
-| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Domain randomization                  |       |      |          |
-| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization |       |      |          |
-| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real                                              |       |      |          |
-| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic                             |       |      |          |
-| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Domain randomization                  |       |      |          |
-| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic<br />+ Domain randomization |       |      |          |
-| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real                                              |       |      |          |
-| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic                             |       |      |          |
-| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Domain randomization                  |       |      |          |
-| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization |       |      |          |
+| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real                                              | 20    | 25.7 |          |
+| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic                             | 20    | 25.2 |          |
+| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Domain randomization                  | 20    | 25.8 |          |
+| Cholec       | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic<br />+ Domain randomization | 20    | 27.1 |          |
+| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real                                              | 12    | 23.7 |          |
+| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic                             | 12    | 26.2 |          |
+| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Domain randomization                  | 12    | 25.1 |          |
+| Cholec       | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization | 12    | 26.4 |          |
+| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real                                              | 20    | 38.8 |          |
+| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic                             | 20    | 39.8 |          |
+| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Domain randomization                  | 20    | 39.7 |          |
+| Gastrec      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic<br />+ Domain randomization | 20    | 39.6 |          |
+| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real                                              | 12    | 37.5 |          |
+| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic                             | 12    | 37.9 |          |
+| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Domain randomization                  | 12    | 38.6 |          |
+| Gastrec      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization | 12    | 40.7 |          |
 
 
 
@@ -150,3 +150,8 @@ Examples:
 Assume that you have already downloaded the checkpoint and config file to the directory `hsdb_demo/checkpoints_configs/`.
 
 1. 
+
+
+
+#### Sample Inference Images
+
