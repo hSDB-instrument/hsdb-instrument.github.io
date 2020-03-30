@@ -40,7 +40,7 @@ hSDB-instrument dataset is a new dataset that reflects the kinematic characteris
 
 #### Baselines
 
-More models with different backbones will be added to the model zoo.
+More models with different backbones will be added to the model zoo (scroll right following table to download models).
 
 | Surgery type | Model         | Bacbone      | Sub-module        | Dataset                                           | Epoch | mAP  | Download                                                     |
 | :----------- | :------------ | :----------- | :---------------- | :------------------------------------------------ | :---- | :--- | ------------------------------------------------------------ |
