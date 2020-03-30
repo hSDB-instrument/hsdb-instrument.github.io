@@ -87,7 +87,7 @@ More models with different backbones will be added to the model zoo.
 
 ##### Install mmdetection
 
-We used MMdetection library to train object detection models on the hSDB-instrument dataset. Following instruction is based on the official MMdetection documentation.
+We used MMdetection library(v1.1.0) to train object detection models on the hSDB-instrument dataset. Following instruction is based on the official MMdetection documentation.
 
 1. Create a conda virutal environment and activate it.
 
@@ -130,7 +130,7 @@ Note:
 
 #### Inference with pretrained models
 
-We provide testing scripts to evaluate sample images.
+We provide testing scripts to inference sample images.
 
 You can use the following commands to test sample images.
 
@@ -149,7 +149,17 @@ Examples:
 
 Assume that you have already downloaded the checkpoint and config file to the directory `hsdb_demo/checkpoints_configs/`.
 
-1. 
+1. Test Cascade R-CNN HRNetV2p-W32 and cholecytectomy dataset.
+
+```bash
+./hsdb_demo/demo_infernce.sh --cholec
+```
+
+2. Test Cascade R-CNN HRNetV2p-W32 with 0.7 threshold and gastrectomy dataset.
+
+```bash
+./hsdb_demo/demo_inference.sh --score_thr 0.7
+```
 
 
 
