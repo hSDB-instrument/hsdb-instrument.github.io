@@ -5,7 +5,7 @@
 hSDB-instrument dataset is a new dataset that reflects the kinematic characteristics of surgical instruments for automated surgical tool recognition of surgical videos. The hSDB-instrument dataset consists of instruments information of cholecystectomy videos obtained from 24 cases of laparoscopic surgery and gastrectomy video obtained from 24 cases of robotic surgery for gastric cancer. Localization information for all tools is provided in the form of a bounding box for training using the object detection framework. At the same time, to handle class imbalance problem between tools, synthetic tools modeled in Unity for three-dimensional (3D) models are included as training data. In addition, we provide object detection models and their baseline performance trained on the hSDB-instrument dataset through MMDetection library. 
 
 ### Paper
-<iframe src="https://drive.google.com/file/d/1QuKx57oOs0rcsgKf9LSyz28qcO3QssEt/preview" width="746" height="480"></iframe>
+<iframe src="https://drive.google.com/file/d/1QuKx57oOs0rcsgKf9LSyz28qcO3QssEt/preview" width="946" height="480"></iframe>
 
 
 ### Example Images
