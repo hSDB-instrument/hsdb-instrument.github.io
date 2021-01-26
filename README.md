@@ -43,7 +43,9 @@ We  provide  additional  statistics  for  the  hSDB-instrument  dataset.  Additi
 
 
 
-***Table 1.* The number of labels by instrument subpart for the hSDB-instrument dataset.** Synthetic and domain randomization data were added equally to each imbalanced class and the classes are highlighted in bold.![](figures/images.png)
+***Table 1.* The number of labels by instrument subpart for the hSDB-instrument dataset.** Synthetic and domain randomization data were added equally to each imbalanced class and the classes are highlighted in bold.
+
+<div style="text-align: center"><img src="figures/images.png" style="zoom: 23%;" /></div>
 
 ***Table 2.* Number of annotations by instrument subpart for laparoscopic cholecystectomy  and robotic gastrectomy.** Synthetic and domain randomization dataset were added equally to each imbalanced class and the classes are highlighted in bold.
 
@@ -123,17 +125,17 @@ More models with different backbones will be added to the model zoo (scroll righ
 | Cholec.      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Domain randomization                  | 20    | 25.8 | [Download](https://drive.google.com/drive/folders/18hRQab7iFRoXEkNVUg5F56q_osF3Mtzh?usp=sharing) |
 | Cholec.      | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic<br />+ Domain randomization | 20    | 27.1 | [Download](https://drive.google.com/drive/folders/1Coruxj39NWt2mF6ivfmPPlRZh5S-51MM?usp=sharing) |
 | Cholec.      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real                                              | 12    | 23.7 | [Download](https://drive.google.com/drive/folders/1AR-9ceXfUj-UB-GPIDkv930S_LU5L25M?usp=sharing) |
-| Cholec.      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic                             | 12    | 26.2 | [Download](https://drive.google.com/drive/folders/1RyCPB0mXoCrHR8NTAVniJS8xCWp-acin?usp=sharing) |
-| Cholec.      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Domain randomization                  | 12    | 25.1 | [Download](https://drive.google.com/drive/folders/1Ed0DPfvMPnN05PHi7DX-yijqRZ3LJ5M9?usp=sharing) |
-| Cholec.      | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization | 12    | 26.4 | [Download](https://drive.google.com/drive/folders/1z-qan-EsKZ8WtHhmtVdd9zWr5KyUUJ6S?usp=sharing) |
+| Cholec.      | FoveaBox      | ResNeXt101   | FPN + align-gn-ms | Real<br />+ Synthetic                             | 12    | 26.2 | [Download](https://drive.google.com/drive/folders/1RyCPB0mXoCrHR8NTAVniJS8xCWp-acin?usp=sharing) |
+| Cholec.      | FoveaBox      | ResNeXt101   | FPN + align-gn-ms | Real<br />+ Domain randomization                  | 12    | 25.1 | [Download](https://drive.google.com/drive/folders/1Ed0DPfvMPnN05PHi7DX-yijqRZ3LJ5M9?usp=sharing) |
+| Cholec.      | FoveaBox      | ResNeXt101   | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization | 12    | 26.4 | [Download](https://drive.google.com/drive/folders/1z-qan-EsKZ8WtHhmtVdd9zWr5KyUUJ6S?usp=sharing) |
 | Gastrec.     | Cascade R-CNN | HRNetV2p-W32 | -                 | Real                                              | 20    | 38.8 | [Download](https://drive.google.com/drive/folders/1vyiYUcmV-oX5pAjAsHW2CTfX2miICgwn?usp=sharing) |
 | Gastrec.     | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic                             | 20    | 39.8 | [Download](https://drive.google.com/drive/folders/1w1n519M-2ePtYQUAXIOqxwHZIy-yclOy?usp=sharing) |
 | Gastrec.     | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Domain randomization                  | 20    | 39.7 | [Download](https://drive.google.com/drive/folders/1XfVhCQrDZPKJOeLH6i64wGnHMZzuGhUi?usp=sharing) |
 | Gastrec.     | Cascade R-CNN | HRNetV2p-W32 | -                 | Real<br />+ Synthetic<br />+ Domain randomization | 20    | 39.6 | [Download](https://drive.google.com/drive/folders/1sLeQJnqeWGyCi-qHAgRVVKf5fBInm3Ep?usp=sharing) |
-| Gastrec.     | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real                                              | 12    | 37.5 | [Download](https://drive.google.com/drive/folders/1NCu-gQAn7tbL2AUotCsAPRi39rcwJFAJ?usp=sharing) |
-| Gastrec.     | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic                             | 12    | 37.9 | [Download](https://drive.google.com/drive/folders/1nCJBSPoRYIpEzizNKOxCxo6VpVKEfAOK?usp=sharing) |
-| Gastrec.     | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Domain randomization                  | 12    | 38.6 | [Download](https://drive.google.com/drive/folders/1ZIeVblvaLb5AgQtpl7-566yXUo4L_0OM?usp=sharing) |
-| Gastrec.     | FoveaBox      | ResNet101    | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization | 12    | 40.7 | [Download](https://drive.google.com/drive/folders/1XEAiGoyVVPcaHGdO8fOQPzclPzgujHaA?usp=sharing) |
+| Gastrec.     | FoveaBox      | ResNeXt101   | FPN + align-gn-ms | Real                                              | 12    | 37.5 | [Download](https://drive.google.com/drive/folders/1NCu-gQAn7tbL2AUotCsAPRi39rcwJFAJ?usp=sharing) |
+| Gastrec.     | FoveaBox      | ResNeXt101   | FPN + align-gn-ms | Real<br />+ Synthetic                             | 12    | 37.9 | [Download](https://drive.google.com/drive/folders/1nCJBSPoRYIpEzizNKOxCxo6VpVKEfAOK?usp=sharing) |
+| Gastrec.     | FoveaBox      | ResNeXt101   | FPN + align-gn-ms | Real<br />+ Domain randomization                  | 12    | 38.6 | [Download](https://drive.google.com/drive/folders/1ZIeVblvaLb5AgQtpl7-566yXUo4L_0OM?usp=sharing) |
+| Gastrec.     | FoveaBox      | ResNeXt101   | FPN + align-gn-ms | Real<br />+ Synthetic<br />+ Domain randomization | 12    | 40.7 | [Download](https://drive.google.com/drive/folders/1XEAiGoyVVPcaHGdO8fOQPzclPzgujHaA?usp=sharing) |
 
 
 
