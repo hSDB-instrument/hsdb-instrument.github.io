@@ -76,7 +76,7 @@ Figures 3 and 4 show the number of annotations of the tools on a logarithmic sca
 
 ![Figure 4](figures/fig4.png)
 
-***Figure 4.* The number of annotations by instrument category for robotic gastrectomy.** The graph was plotted on a logarithmic scale.
+***Figure 4.* The number of annotations by instrument category for robotic gastrectomy.** The graph was plotted in a logarithmic scale.
 
 ![Figure 5](figures/fig5.png)
 
