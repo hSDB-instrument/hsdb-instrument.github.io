@@ -98,7 +98,7 @@ Table 3 shows the performance evaluation results of the most improved model (Ret
 
 ### Additional Visualizations of hSDB-instrument
 
-Figure 7 and 8 show visualizations of the tool position measurement for the different model and dataset. The probability threshold for visualization was set to 0.7.
+Figure 7 and 8 show visualizations of the tool position measurement for the different model and dataset. The probability threshold for visualization was set to 0.7. Figures 9 and 10 show the learning curve using the hSDB-instrument dataset. Figure 9 shows the total loss during training for each surgical type, model, and training set. Figure 10 shows the mAP for the validation set measured at each epoch according to the surgical type, model, and training set.
 
 
 
@@ -109,6 +109,14 @@ Figure 7 and 8 show visualizations of the tool position measurement for the diff
 ![](figures/fig10.png)
 
 ***Figure 8.* Visualization of MMDetection-based inference output for robotic gastrectomy.** For each video frame, it shows the output of the trained model with different architecture and composition of dataset. The confidence threshold for visualization was set at 0.7.
+
+![](figures/fig13.jpg)
+
+***Figure 9.* Learning curves in training using the hSDB-instrument dataset.** Total loss plots are shown for each surgical type, model, and training set.
+
+![](figures/fig14.jpg)
+
+***Figure 10.* Learning performance curve according to model in training using hSDB-instrument dataset.** The training for each surgical type, model, and training set shows the mAP at each epoch.
 
 
 
@@ -139,15 +147,7 @@ More models with different backbones will be added to the model zoo (scroll righ
 
 
 
-#### Loss and mAP
 
-- Learning curve according to Cascade R-CNN HRNetV2p-W32 in training using gastrec(real + synthetic + domain randomization) dataset
-
-![cascade_rcnn_hrnetv2p_w32_gastric_syn_dr_loss](figures/cascade_rcnn_hrnetv2p_w32_gastric_syn_dr_loss.png)
-
-- Learning performance curves according to Cascade R-CNN HRNetV2p-W32 in training using hSDB-instrument gastrec dataset
-
-![cascade_rcnn_hrnetv2p_w32_gastric](figures/cascade_rcnn_hrnetv2p_w32_gastric.png)
 
 
 
