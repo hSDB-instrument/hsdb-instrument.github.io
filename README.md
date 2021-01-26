@@ -39,15 +39,15 @@ hSDB-instrument dataset is a new dataset that reflects the kinematic characteris
 
 ### Additional Statistics of hSDB-instrument
 
-We  provide  additional  statistics  for  the  hSDB-instrument  dataset.  Additional statistics includes the relative and absolute amount of annotations in subparts of the tools and the tools itself. Table 1 shows the number of frames for each data split in the hSDB-instrument dataset. Table 2 shows the number of labels of each subpart of surgical instruments in the hSDB-instrument dataset. We added an equal amount of synthetic and domain randomization data to each imbalanced class. 
+We  provide  additional  statistics  for  the  hSDB-instrument  dataset.  Additional statistics includes the absolute and relative amount of annotations in subparts of the tools and the tools itself. Table 1 shows the number of frames for each data split in the hSDB-instrument dataset. Table 2 shows the number of labels of each subpart of surgical instruments in the hSDB-instrument dataset. We added an equal amount of synthetic and domain randomization data to each imbalanced class. 
 
 
 
-***Table 1.* The number of labels by instrument subpart for the hSDB-instrument dataset.** Synthetic and domain randomization data were added equally to each imbalanced class and the classes are highlighted in bold.
+***Table 1.* The number of frames by surgery types and data split for the hSDB-instrument dataset.** The additional frames of synthetic and domain randomization data are highlighted in bold.
 
 <div style="text-align: center"><img src="figures/images.png" style="zoom: 23%;" /></div>
 
-***Table 2.* The number of annotations by instrument subpart for laparoscopic cholecystectomy  and robotic gastrectomy.** Synthetic and domain randomization dataset were added equally to each imbalanced class and the classes are highlighted in bold.
+***Table 2.* The number of labels by instrument subpart for the hSDB-instrument dataset.** Synthetic and domain randomization data were added equally to each imbalanced class and the classes are highlighted in bold.
 
 <div style="text-align: center"><img src="figures/lapa_data.png" alt="Lapa  data" style="zoom: 33%;" /></div>
 
