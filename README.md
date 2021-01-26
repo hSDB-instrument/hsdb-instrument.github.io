@@ -4,8 +4,7 @@
 
 hSDB-instrument dataset is a new dataset that reflects the kinematic characteristics of surgical instruments for automated surgical tool recognition of surgical videos. The hSDB-instrument dataset consists of instruments information of cholecystectomy videos obtained from 24 cases of laparoscopic surgery and gastrectomy video obtained from 24 cases of robotic surgery for gastric cancer. Localization information for all tools is provided in the form of a bounding box for training using the object detection framework. At the same time, to handle class imbalance problem between tools, synthetic tools modeled in Unity for three-dimensional (3D) models are included as training data. In addition, we provide object detection models and their baseline performance trained on the hSDB-instrument dataset through MMDetection library. 
 
-### Paper
-<iframe src="" width="832" height="480"></iframe>
+
 
 
 ### Example Images
@@ -37,6 +36,41 @@ hSDB-instrument dataset is a new dataset that reflects the kinematic characteris
 | Gastrec.     | [Real<br />+ Synthetic<br />+ Domain randomization](https://drive.google.com) (deactivate) | All kinds of synthetic dataset are added to the gastrec real dataset |
 
 
+
+### Additional Statistics of hSDB-instrument
+
+We  provide  additional  statistics  for  the  hSDB-instrument  dataset.  Additional statistics includes the relative and absolute amount of annotations in subparts of the tools and the tools itself. Figure 1 shows the relative amount of annotations of the subparts with the largest number of the subpart to 1.0 in laparoscopic cholecystectomy. Figure 1 compares the relative amount of the normalized number of supervision. The graph at the top is the statistic for the real dataset, and the graph at the bottom is the statistic for real, synthetic (San), and domain randomization (DR) dataset. Figure 2 shows the same statistics as in Figure 1 in gastrectomy for gastric cancer. 
+
+![Figure 1](figures/fig1.png)*Figure 1*. 
+![Figure 2](figures/fig2.png)
+
+*Figrue 2.*
+
+Figure 3 and 4 show the number of annotations of the tools in a logarithmic scale. In figure 3, the tools that appear in laparoscopic cholecystectomy are largely divided into laparoscopic head, laparoscopic body, laparoscopic instrument  tools,  and  auxiliary  tools.  Laparoscopic  instrument  tools  are  referred  to equipments such as suction-irrigation and electrichook that are not divided into subparts. Auxiliary tools are assistive tools, such as needle and specimen bag.The graph on the right is a statistic including the synthetic (Syn) and domain randomization (DR) dataset. Same manner is applied for robotic gastrectomy in figure 4. Figure 5 shows the proportion of annotations by the categories definedin figure 3 and 4. Figure 6 also shows the proportion of annotations by the same categories including both laparoscopic and robotic instruments.
+
+![Figure 3](figures/fig3.png)
+
+*Figure 3.*
+
+![Figure 4](figures/fig4.png)
+
+*Figure 4.*
+
+![Figure 5](figures/fig5.png)
+
+*Figure 5.*
+
+![Figure 6](figures/fig6.png)
+
+*Figure 6.*
+
+### ![Lapa  data](figures/lapa_data.png)![Lapa  data](figures/robot_data.png)
+
+*Table 1.*
+
+![Lapa  data](figures/libra_retina_r50_lapa.png)![Lapa  data](figures/libra_retina_r50_robot.png)
+
+*Table 2.*
 
 ### Model Zoo
 
