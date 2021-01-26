@@ -66,7 +66,7 @@ Figure 1 shows the relative amount of annotations of the subparts with the large
 
 
 
-Figure 3 and 4 show the number of annotations of the tools on a logarithmic scale. In figure 3, the tools that appear in laparoscopic cholecystectomy are largely divided into laparoscopic head, laparoscopic body, laparoscopic instrument tools, and auxiliary tools. Laparoscopic instrument tools are referred to as equipment such as suction-irrigation and electrichook that are not divided into subparts. Auxiliary tools are assistive tools, such as needle and specimen bag. The graph on the right is a statistic including the synthetic (Syn) and domain randomization (DR) dataset. The same manner is applied for robotic gastrectomy in figure 4. Figure 5 shows the proportion of annotations by the categories defined in Figure 3 and 4. Figure 6 also shows the proportion of annotations by the same categories including both laparoscopic and robotic instruments.
+Figures 3 and 4 show the number of annotations of the tools on a logarithmic scale. In figure 3, the tools that appear in laparoscopic cholecystectomy are largely divided into laparoscopic head, laparoscopic body, laparoscopic instrument tools, and auxiliary tools. Laparoscopic instrument tools are referred to as equipment such as suction-irrigation and electrichook that are not divided into subparts. Auxiliary tools are assistive tools, such as needle and specimen bag. The graph on the right is a statistic including the synthetic (Syn) and domain randomization (DR) dataset. The same manner is applied for robotic gastrectomy in figure 4. Figure 5 shows the proportion of annotations by the categories defined in Figure 3 and 4. Figure 6 also shows the proportion of annotations by the same categories including both laparoscopic and robotic instruments.
 
 
 
@@ -98,7 +98,7 @@ Table 3 shows the performance evaluation results of the most improved model (Ret
 
 ### Additional Visualizations of hSDB-instrument
 
-Figure 7 and 8 show visualizations of the tool position measurement for the different model and dataset. The probability threshold for visualization was set to 0.7. Figures 9 and 10 show the learning curve using the hSDB-instrument dataset. Figure 9 shows the total loss during training for each surgical type, model, and training set. Figure 10 shows the mAP for the validation set measured at each epoch according to the surgical type, model, and training set.
+Figures 7 and 8 show visualizations of the tool position measurement for the different model and dataset. The probability threshold for visualization was set to 0.7. Figures 9 and 10 show the learning curve using the hSDB-instrument dataset. Figure 9 shows the total loss during training for each surgical type, model, and training set. Figure 10 shows the mAP for the validation set measured at each epoch according to the surgical type, model, and training set.
 
 
 
