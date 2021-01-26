@@ -47,7 +47,7 @@ We  provide  additional  statistics  for  the  hSDB-instrument  dataset.  Additi
 
 <div style="text-align: center"><img src="figures/images.png" style="zoom: 23%;" /></div>
 
-***Table 2.* Number of annotations by instrument subpart for laparoscopic cholecystectomy  and robotic gastrectomy.** Synthetic and domain randomization dataset were added equally to each imbalanced class and the classes are highlighted in bold.
+***Table 2.* The number of annotations by instrument subpart for laparoscopic cholecystectomy  and robotic gastrectomy.** Synthetic and domain randomization dataset were added equally to each imbalanced class and the classes are highlighted in bold.
 
 <div style="text-align: center"><img src="figures/lapa_data.png" alt="Lapa  data" style="zoom: 33%;" /></div>
 
@@ -72,11 +72,11 @@ Figure 3 and 4 show the number of annotations of the tools on a logarithmic scal
 
 ![Figure 3](figures/fig3.png)
 
-***Figure 3.* Number of annotations by instrument category for laparoscopic cholecystectomy.** The graph was plotted in a logarithmic scale.
+***Figure 3.* The number of annotations by instrument category for laparoscopic cholecystectomy.** The graph was plotted in a logarithmic scale.
 
 ![Figure 4](figures/fig4.png)
 
-***Figure 4.* Number of annotations by instrument category for robotic gastrectomy.** The graph was plotted on a logarithmic scale.
+***Figure 4.* The number of annotations by instrument category for robotic gastrectomy.** The graph was plotted on a logarithmic scale.
 
 ![Figure 5](figures/fig5.png)
 
