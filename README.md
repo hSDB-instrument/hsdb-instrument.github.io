@@ -1,4 +1,7 @@
 ## hSDB-instrument: Instrument Localization Databse for Laparoscopic and Robotic Surgeries (Accepted at MICCAI 2021)
+![hutom](figures/hutom.png)
+Official repository for the paper [hSDB-instrument: Instrument Localization Databse for Laparoscopic and Robotic Surgeries](https://link.springer.com/chapter/10.1007/978-3-030-87202-1_38). This project was developed at [hutom](https://hutom.io).
+
 
 ### What is hSDB-instrument dataset?
 
@@ -24,7 +27,7 @@ hSDB-instrument dataset is a new dataset that reflects the kinematic characteris
 
 - You can download data [here](https://drive.google.com/drive/folders/1SGc7KG4orD4MYPZdoYFECQbxl07Tf3hv?usp=sharing)
 - Validation data is included with Real data.
-- If you have any issues with data, send email to yjh2020@hutom.io
+- If you have any issues with data, send email to **yjh2020@hutom.io / mkchoi@hutom.io**
 
 | Surgery Type | Data Type                                                    | Comments                                                     |
 | :----------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
