@@ -1,4 +1,4 @@
-## hSDB-instrument: Instrument Localization Databse for Laparoscopic and Robotic Surgeries (Accepted at MICCAI 2021, this website is a work in progress.)
+## hSDB-instrument: Instrument Localization Databse for Laparoscopic and Robotic Surgeries (Accepted at MICCAI 2021)
 
 ### What is hSDB-instrument dataset?
 
